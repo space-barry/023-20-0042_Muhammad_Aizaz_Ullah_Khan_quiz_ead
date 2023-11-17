@@ -1,97 +1,88 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import image from "../images/offering1.png"
+import image1 from "../images/offering1.png";
+import image2 from "../images/offering2.png";
+import image3 from "../images/offering3.png";
+import image4 from "../images/offering4.png";
+import image5 from "../images/offering5.png";
+import image6 from "../images/offering6.png";
 
 function Projects () {
     return (
         <>
-        <div className="offerings">
+        <div className="offerings" style={{color:"white", paddingLeft:"3rem"}}>
           <h2> Our Offerings</h2>
         </div>
-        <div className="container-fluid" style={{backgroundColor:"black",paddingTop:"2rem", marginTop:"3rem"}}>
-            <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-4" style={{paddingLeft:"2rem"}}>
+        <div className="container-fluid" style={{paddingTop:"2rem", marginTop:"3rem"}}>
+            <div className="row"> 
+                <div className="col-sm-12 col-md-12 col-lg-4" style={{paddingLeft:"2rem", backgroundColor:"#464343"}}>
                 <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image} style={{height:"15rem"}}/>
+                <Card.Img variant="top" src={image1} style={{height:"15rem"}}/>
                 <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Title>Barfi</Card.Title>
+                <Card.Title>Rs. 900/=</Card.Title>
+                
+                <Button variant="primary">Order Now</Button>
               </Card.Body>
             </Card>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-4" style={{paddingLeft:"2rem"}}>
                 <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image} style={{height:"15rem"}}/>
+                <Card.Img variant="top" src={image2} style={{height:"15rem"}}/>
                 <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </Card.Text>
+                <Card.Title>Barfi</Card.Title>
+                <Card.Title>Rs. 900/=</Card.Title>
+                
                 <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
             </Card>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-4"  style={{paddingLeft:"2rem"}} >
                 <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image} style={{height:"15rem"}}/>
-                   <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-                </Card.Text>
+                <Card.Img variant="top" src={image3} style={{height:"15rem"}}/>
+                <Card.Body>
+                <Card.Title>Barfi</Card.Title>
+                <Card.Title>Rs. 900/=</Card.Title>
+                
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-4"  style={{paddingLeft:"2rem", marginTop:"2rem"}} >
                 <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src={image} style={{height:"15rem"}}/>
+                  <Card.Img variant="top" src={image4} style={{height:"15rem"}}/>
                    <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-                </Card.Text>
+                   <Card.Title>Barfi</Card.Title>
+                <Card.Title>Rs. 900/=</Card.Title>
+                
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-4"  style={{paddingLeft:"2rem", marginTop:"2rem"}} >
                 <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src={image} style={{height:"15rem"}}/>
+                  <Card.Img variant="top" src={image5} style={{height:"15rem"}}/>
                    <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-                </Card.Text>
+                   <Card.Title>Barfi</Card.Title>
+                <Card.Title>Rs. 900/=</Card.Title>
+                
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-4"  style={{paddingLeft:"2rem", marginTop:"2rem", paddingBottom:"2rem"}} >
                 <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src={image} style={{height:"15rem"}}/>
+                  <Card.Img variant="top" src={image6} style={{height:"15rem"}}/>
                    <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-                </Card.Text>
+                   <Card.Title>Barfi</Card.Title>
+                <Card.Title>Rs. 900/=</Card.Title>
+                
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
                 </div>
 
-                <Button variant="outline-light" style={{width:"10rem", marginLeft:"55rem", marginBottom:"2rem"}}>Light</Button>{' '} 
-            
             </div>
         </div>
         </>

@@ -2,23 +2,20 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import image from '../images/logo.png';
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-dark container-fluid">
+    <Navbar expand="lg" className="bg-white container-fluid">
       <Container>
-        <Navbar.Brand href="#home" className='text-light' >Aizaz Khan</Navbar.Brand>
+        <Navbar.Brand href="#logo" ><img src={image} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home" className='text-light' >Home</Nav.Link>
-            <Nav.Link href="#link" className='text-light' >Link</Nav.Link>
-            <NavDropdown title="Reviews" style={{color:"white !important "}}className={'text-light'} id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Seller Reviews</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Buyer Reviews</NavDropdown.Item>
-              </NavDropdown>
-
-            <Nav.Link href="#contact-us" className='text-light' >Contact Us</Nav.Link>
+          <Nav className="me-auto" style={{paddingLeft:"44rem"}}>
+            <Nav.Link href="#home" className='text-dark' >Home</Nav.Link>
+            <Nav.Link href="#menu" className='text-dark' >Menu</Nav.Link>
+            <Nav.Link href="#about" className='text-dark' >About Us</Nav.Link>
+            <Nav.Link href="#contact" className='text-dark' >Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
