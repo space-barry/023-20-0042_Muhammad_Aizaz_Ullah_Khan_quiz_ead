@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/img1.png"
+import image from "../images/welcome.png"
 
 function HeroSection () {
     return (
