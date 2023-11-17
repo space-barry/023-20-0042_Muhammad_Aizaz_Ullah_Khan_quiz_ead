@@ -12,7 +12,7 @@ function About () {
                     </h1>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-6 ">
-                    <img style={{width: "20rem", marginTop: "5rem", height: "20rem", marginLeft: "8rem", borderRadius: "10rem"}} src={image} alt="Description" />
+                    <img style={{width: "25rem", marginTop: "5rem", height: "20rem", marginLeft: "8rem", borderRadius: "10rem"}} src={image} alt="Description" />
                 </div>
             </div>
             <div style={{background: '#C1C3C0', color: 'black', paddingLeft:"3rem" ,paddingRight:'3rem', paddingBottom:"5rem"}} >
