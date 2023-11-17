@@ -3,9 +3,9 @@ import React from "react";
 function Contact () {
     return (
         <>
-            <div className="contact" style={{paddingTop:"4rem",background:"white", paddingLeft:"3rem"}}>
+            <div id='contact' className="contact" style={{paddingTop:"4rem",background:"white", paddingLeft:"3rem"}}>
                 <h2>Contact Us</h2>
-            <form>
+            <form style={{paddingRight:"8rem"}}>
                 <div class="row" style={{paddingTop:"2rem"}}>
                     <div class="col">
                         <input type="text" class="form-control" placeholder="Full Name" />
@@ -27,6 +27,10 @@ function Contact () {
                         <input type="text" class="form-control" placeholder="Description" />
                     </div>
                 </div>
+                <div style={{padding:"4rem"}}>
+                    <button type="button" class="btn btn-success" style={{marginLeft:"55rem", paddint:"3rem"}}>Submit</button>
+                </div>
+
             </form>
         </div>
         

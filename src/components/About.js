@@ -5,7 +5,7 @@ function About () {
     return (
         < >
 
-            <div className="row" style={{background: '#C1C3C0', color: 'black', paddingLeft:"3rem" ,paddingRight:'3rem'}}  >
+            <div id="about" className="row" style={{background: '#C1C3C0', color: 'black', paddingLeft:"3rem" ,paddingRight:'3rem'}}  >
                 <div className="col-sm-12 col-md-12 col-lg-6 " style={{marginTop:"12rem", paddingLeft:"4rem"}}>
                     <h1>
                         About Us
