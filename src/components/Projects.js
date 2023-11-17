@@ -17,7 +17,7 @@ function Projects () {
         <div className="container-fluid" style={{paddingTop:"2rem", marginTop:"3rem"}}>
             <div className="row"> 
             <div className="col-sm-12 col-md-12 col-lg-4" style={{ paddingLeft: "2rem", backgroundColor: "#464343" }}>
-              <Card style={{ width: '18rem', backgroundColor: '#464343' }}>
+              <Card style={{ width: '18rem', backgroundColor: '#464343', border:"none" }}>
               <Card.Img variant="top" src={image1} style={{ height: "15rem" }} />
                 <Card.Body>
                   <Card.Title>Barfi</Card.Title>
@@ -28,7 +28,7 @@ function Projects () {
               </div>
 
                 <div className="col-sm-12 col-md-12 col-lg-4" style={{paddingLeft:"2rem"}}>
-                <Card style={{ width: '18rem', backgroundColor: '#464343' }}>
+                <Card style={{ width: '18rem', backgroundColor: '#464343', border:"none" }}>
                 <Card.Img variant="top" src={image2} style={{height:"15rem"}}/>
                 <Card.Body>
                 <Card.Title>Barfi</Card.Title>
@@ -39,7 +39,7 @@ function Projects () {
             </Card>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-4"  style={{paddingLeft:"2rem"}} >
-                <Card style={{ width: '18rem',  backgroundColor: '#464343' }}>
+                <Card style={{ width: '18rem',  backgroundColor: '#464343', border:"none" }}>
                 <Card.Img variant="top" src={image3} style={{height:"15rem"}}/>
                 <Card.Body>
                 <Card.Title>Barfi</Card.Title>
@@ -50,7 +50,7 @@ function Projects () {
             </Card>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-4"  style={{paddingLeft:"2rem", marginTop:"2rem"}} >
-                <Card style={{ width: '18rem', backgroundColor: '#464343' }}>
+                <Card style={{ width: '18rem', backgroundColor: '#464343', border:"none" }}>
                   <Card.Img variant="top" src={image4} style={{height:"15rem"}}/>
                    <Card.Body>
                    <Card.Title>Barfi</Card.Title>
@@ -61,7 +61,7 @@ function Projects () {
             </Card>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-4"  style={{paddingLeft:"2rem", marginTop:"2rem"}} >
-                <Card style={{ width: '18rem',  backgroundColor: '#464343' }}>
+                <Card style={{ width: '18rem',  backgroundColor: '#464343', border:"none" }}>
                   <Card.Img variant="top" src={image5} style={{height:"15rem"}}/>
                    <Card.Body>
                    <Card.Title>Barfi</Card.Title>
@@ -72,7 +72,7 @@ function Projects () {
             </Card>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-4"  style={{paddingLeft:"2rem", marginTop:"2rem", paddingBottom:"2rem"}} >
-                <Card style={{ width: '18rem', backgroundColor: '#464343' }}>
+                <Card style={{ width: '18rem', backgroundColor: '#464343', border:"none" }}>
                   <Card.Img variant="top" src={image6} style={{height:"15rem"}}/>
                    <Card.Body>
                    <Card.Title>Barfi</Card.Title>
