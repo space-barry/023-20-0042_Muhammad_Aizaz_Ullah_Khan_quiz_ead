@@ -20,8 +20,8 @@ function Projects () {
               <Card style={{ width: '18rem', backgroundColor: '#464343', border:"none" }}>
               <Card.Img variant="top" src={image1} style={{ height: "15rem" }} />
                 <Card.Body>
-                  <Card.Title>Barfi</Card.Title>
-                  <Card.Title>Rs. 900/=</Card.Title>
+                  <Card.Title style={{color:"white"}} >Barfi</Card.Title>
+                  <Card.Title style={{color:"white"}} >Rs. 900/=</Card.Title>
                   <Button variant="primary" style={{background:"white", color:"black"}} >Order Now</Button>
                 </Card.Body>
               </Card>
@@ -31,8 +31,8 @@ function Projects () {
                 <Card style={{ width: '18rem', backgroundColor: '#464343', border:"none" }}>
                 <Card.Img variant="top" src={image2} style={{height:"15rem"}}/>
                 <Card.Body>
-                <Card.Title>Barfi</Card.Title>
-                <Card.Title>Rs. 900/=</Card.Title>
+                <Card.Title style={{color:"white"}}>Barfi</Card.Title>
+                <Card.Title style={{color:"white"}}>Rs. 900/=</Card.Title>
                 
                 <Button variant="primary" style={{background:"white", color:"black"}} >Order Now</Button>
                 </Card.Body>
@@ -42,8 +42,8 @@ function Projects () {
                 <Card style={{ width: '18rem',  backgroundColor: '#464343', border:"none" }}>
                 <Card.Img variant="top" src={image3} style={{height:"15rem"}}/>
                 <Card.Body>
-                <Card.Title>Barfi</Card.Title>
-                <Card.Title>Rs. 900/=</Card.Title>
+                <Card.Title style={{color:"white"}}>Barfi</Card.Title>
+                <Card.Title style={{color:"white"}}>Rs. 900/=</Card.Title>
                 
                 <Button variant="primary" style={{background:"white", color:"black"}} >Order Now</Button>
               </Card.Body>
@@ -53,8 +53,8 @@ function Projects () {
                 <Card style={{ width: '18rem', backgroundColor: '#464343', border:"none" }}>
                   <Card.Img variant="top" src={image4} style={{height:"15rem"}}/>
                    <Card.Body>
-                   <Card.Title>Barfi</Card.Title>
-                <Card.Title>Rs. 900/=</Card.Title>
+                   <Card.Title style={{color:"white"}} >Barfi</Card.Title>
+                <Card.Title style={{color:"white"}}>Rs. 900/=</Card.Title>
                 
                 <Button variant="primary" style={{background:"white", color:"black"}} >Order Now</Button>
               </Card.Body>
@@ -64,8 +64,8 @@ function Projects () {
                 <Card style={{ width: '18rem',  backgroundColor: '#464343', border:"none" }}>
                   <Card.Img variant="top" src={image5} style={{height:"15rem"}}/>
                    <Card.Body>
-                   <Card.Title>Barfi</Card.Title>
-                <Card.Title>Rs. 900/=</Card.Title>
+                   <Card.Title style={{color:"white"}} >Barfi</Card.Title>
+                <Card.Title style={{color:"white"}} >Rs. 900/=</Card.Title>
                 
                 <Button variant="primary" style={{background:"white", color:"black"}} >Order Now</Button>
               </Card.Body>
@@ -75,8 +75,8 @@ function Projects () {
                 <Card style={{ width: '18rem', backgroundColor: '#464343', border:"none" }}>
                   <Card.Img variant="top" src={image6} style={{height:"15rem"}}/>
                    <Card.Body>
-                   <Card.Title>Barfi</Card.Title>
-                <Card.Title>Rs. 900/=</Card.Title>
+                   <Card.Title style={{color:"white"}}>Barfi</Card.Title>
+                <Card.Title style={{color:"white"}} >Rs. 900/=</Card.Title>
                 
                 <Button variant="primary" style={{background:"white", color:"black"}}>Order Now</Button>
               </Card.Body>
