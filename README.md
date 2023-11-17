@@ -1,2 +1,1 @@
-# my-template
- 
+# This is the Quiz site.
